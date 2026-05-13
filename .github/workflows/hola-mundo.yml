@@ -52,6 +52,17 @@ jobs:
         run: |
           echo "--- Archivos en el repositorio ---"
           ls -la
+
+      - name: "Sobre mi"
+        run: |
+          echo "==========================================="
+          echo "  Nombre:      [TU NOMBRE]"
+          echo "  Programa:    [TU CARRERA]"
+          echo "  Institucion: IU Digital de Antioquia"
+          echo "  Fecha:       $(date)"
+          echo "  Mi primer Action funciona!"
+          echo "==========================================="
+
  
       - name: "Deploy completado"
         run: |
